@@ -5,11 +5,9 @@
 
 
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.sound.sampled.AudioFileFormat.Type;
 import javax.xml.parsers.DocumentBuilder;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.Text;
 import org.w3c.dom.NodeList;
 import javax.xml.transform.Transformer;
@@ -17,7 +15,6 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
-import java.util.jar.Attributes.Name;
 
 
 public class xml {
